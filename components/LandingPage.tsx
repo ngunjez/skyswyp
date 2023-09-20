@@ -149,8 +149,8 @@ const LandingPage = () => {
       </See_Text>
       <OnRec>
         <OnText>
-          "Skyswyp elevated our business with an AI chatbot that understands
-          user intent like magic.”
+        &quot;Skyswyp elevated our business with an AI chatbot that understands
+          user intent like magic.&quot;
         </OnText>
         <BW_container>
           <B_Text>Benjamin Oramisi</B_Text>
@@ -160,8 +160,8 @@ const LandingPage = () => {
       </OnRec>
       <OnRec2>
         <Their_Text>
-          "Their web development prowess transformed our online presence,
-          boosting user engagement and conversions.”
+        &quot;Their web development prowess transformed our online presence,
+          boosting user engagement and conversions.&quot;
         </Their_Text>
         <M_text>Margaret </M_text>
       </OnRec2>
