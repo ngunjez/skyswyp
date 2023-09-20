@@ -12,11 +12,12 @@ background: #0D0D0E;
 `
 
 export const FooterLogo = styled.div`
-positon:relative;
+position:relative;
 width: 24.358px;
 height: 24.358px;
 flex-shrink: 0;
 fill: #FFF;
+left:50px;
 background-image:url("/footer_logo.svg");
 background-position:center;
 background-size:cover;
@@ -26,6 +27,7 @@ background-repeat:no-repeat;
 export const Get_footer = styled.div`
 position:absolute;
 top:70px;
+left:65px;
 color: #FFF;
 font-family: Inter;
 font-size: 14px;
@@ -38,7 +40,7 @@ export const Frame1 = styled.div`
 position:relative;
 top:80px;
 width:330px;
-right:25px;
+left:19px;
 height:34px;
 display: flex;
 align-items:center;
@@ -109,7 +111,7 @@ backgorund-repeat:no-repeat;
 export const SocialContainer = styled.div`
 position:relative;
 top:150px;
-right:85%;
+right:73%;
 height:135px;
 display: flex;
 width: 119.33px;
