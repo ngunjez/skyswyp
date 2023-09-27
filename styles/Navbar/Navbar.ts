@@ -5,7 +5,7 @@ position:fixed;
 width:inherit;
 height:64px;
 background-color: #0D0D0E;
-z-index:50px;
+z-index:2000px;
 border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 display:flex;
 top:0px;

@@ -328,7 +328,7 @@ background-clip: text;
 export const Image1 = styled.div`
 width: 356px;
 height: 274.141px;
-background: url("/Image1.svg"), lightgray 50% / cover no-repeat;
+background: url("/Rs1.png"), lightgray 50% / cover no-repeat;
 mix-blend-mode: luminosity;
 background-position:center;
 background-size:cover;
