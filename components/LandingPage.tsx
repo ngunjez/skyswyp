@@ -49,6 +49,7 @@ import {
   CardLine,
 } from "@/styles/LandingPage";
 import React from "react";
+import Link from "next/link";
 
 const LandingPage = () => {
   const chatbotItems = [

@@ -92,7 +92,8 @@ font-family: Inter;
 font-size: 13px;
 font-style: normal;
 font-weight: 500;
-line-height: 14px; 
+line-height: 14px;
+cursor:pointer;
 `
 
 export const FindArrow = styled.div`
@@ -121,7 +122,7 @@ gap: 16px;
 flex-shrink: 0;
 `
 
-export const SocialHeader = styled.div`
+export const SocialHeader = styled.div`[']
 color: #FFF;
 font-family: Inter;
 font-size: 14px;
