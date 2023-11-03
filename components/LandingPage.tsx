@@ -60,6 +60,34 @@ const LandingPage = () => {
     "Mobile Development",
     "MVP Development",
   ];
+
+  const sectionRecItems = [
+    {
+      header: "Why Skyswyp?",
+      headerText:
+        "With a dynamic team of designers, developers, and product strategists, we're dedicated to transforming your ideas into reality. Here's why partnering with us is a + .",
+      image: <Image1 />,
+    },
+    {
+      header: "Expertise Across the Spectrum",
+      headerText:
+        "Our diverse skill set allows us to tackle projects of various technical backgrounds. Whether you're envisioning an AI-powered chatbot, a cutting-edge MVP, a robust web platform, a seamless mobile app, or exploring the potential of blockchain technology",
+      image: <Image2 />,
+    },
+    {
+      header: "Client-Centric Approach",
+      headerText:
+        "We're not just here to execute your vision; we're here to understand your goals, provide valuable insights, and work collaboratively to ensure your project reaches its full potential.",
+      image: <Image3 />,
+    },
+    {
+      header: "Innovation from Concept to Completion",
+      headerText:
+        "From the inception of an idea to the final polished product, we guide you through every step of the development process. Our team excels at turning concepts into actionable plans, creating MVPs that prove concepts and deliver solutions.",
+      image: <Image4 />,
+    },
+  ];
+  
   return (
     <LandingPageContainer>
       <Providing>
