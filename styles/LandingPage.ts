@@ -183,13 +183,13 @@ line-height: 34px;
 `
 
 export const GetRec = styled.div`
-position:relative;
 display: flex;
 height: 32px;
 width: 358px;
 margin-top:31px;
 padding-right: 0px;
 align-items: center;
+justify-content:center;
 gap: 12px;
 `
 

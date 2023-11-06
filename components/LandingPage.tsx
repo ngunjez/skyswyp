@@ -48,8 +48,9 @@ import {
   M_text,
   CardLine,
 } from "@/styles/LandingPage";
-import React from "react";
+import React, { useEffect } from 'react';
 import Link from "next/link";
+import ReactGA from 'react-ga'
 
 const LandingPage = () => {
   const chatbotItems = [
@@ -87,6 +88,12 @@ const LandingPage = () => {
       image: <Image4 />,
     },
   ];
+
+  useEffect(() => {
+    ReactGA.initialize('G-P626JFWQBK'); 
+
+    ReactGA.pageview(window.location.pathname);
+  }, []);
   
   return (
     <LandingPageContainer>
