@@ -13,7 +13,7 @@ padding: 33px 16px 32px 16px;
 `
 
 export const FooterWrapper = styled.div`
-width:90%;
+width:95%;
 height:auto;
 display:flex;
 flex-direction:column;
@@ -58,7 +58,8 @@ gap:28px;
 
 export const GetButton = styled.div`
 display: flex;
-padding: 10px 16px;
+width: auto;
+height:auto;
 justify-content: center;
 align-items: center;
 border-radius: 16.5px;
@@ -81,7 +82,7 @@ background-size: cover;
 
 export const FindButton = styled.div`
 display: flex;
-padding: 10px 60px 10px 16px;
+height:auto;
 justify-content: center;
 align-items: center;
 border-radius: 16.5px;
@@ -89,6 +90,7 @@ border: 1px solid rgba(255, 255, 255, 0.10);
 background: rgba(255, 255, 255, 0.04);
 gap:5px;
 white-space: nowrap;
+
 `
 
 export const SocialContainer = styled.div`

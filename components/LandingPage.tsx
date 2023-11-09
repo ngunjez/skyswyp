@@ -98,8 +98,7 @@ const LandingPage = () => {
   return (
     <LandingPageContainer>
       <Providing>
-        Providing the building blocks to increase
-        <br /> ROI.
+        Providing the building blocks to increase ROI.
       </Providing>
       <LandingPageWe>we are constantly growing</LandingPageWe>
 

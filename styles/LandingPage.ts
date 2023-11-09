@@ -6,7 +6,7 @@ export const PageContainer=styled('div')({
     flexDirection:"column",
     alignItems:"center",
     justifyContent:"center",
-    width:"450px",
+    width:"100%",
     height:"100%",
     overflowY:"auto",
     overflowX:"hidden",
@@ -27,8 +27,7 @@ export const LandingPageContainer = styled('div')({
 
 export const Providing = styled("div")({
   display:"flex",
-margin:"55px auto auto auto",
-width:"81%",
+width:"80%",
 marginTop:"150px",
 background:" linear-gradient(272deg, #B4BBFF 0%, #6AEFFF 25%, #B5FFF2 50%, #6AEFFF 75%, #B4BBFF 100%)",
 backgroundClip:" text",
@@ -288,14 +287,15 @@ white-space:nowrap;
 
 export const SectionRec = styled.div`
 display: flex;
-width: 389px;
-height: 2320px;
-padding: 0px 16px;
+width: 95%;
+height: auto;
+// padding: 0px 16px;
 flex-direction: column;
 align-items: flex-start;
 gap: 40px;
 background: rgba(13, 13, 14, 0.80);
 box-shadow: 0px 0px 100px 100px rgba(13, 13, 14, 0.80);
+// background-color:red;
 `
 
 export const Header1 = styled.div`
@@ -326,7 +326,7 @@ background-clip: text;
 `
 
 export const Image1 = styled.div`
-width: 356px;
+width: 335px;
 height: 274.141px;
 background: url("/Rs1.png"), lightgray 50% / cover no-repeat;
 mix-blend-mode: luminosity;
@@ -357,7 +357,7 @@ background-clip: text;
 `
 
 export const Image2 = styled.div`
-width: 356px;
+width: 335px;
 height: 297.069px;
 background: url("/Image2.svg"), lightgray 50% / cover no-repeat;
 mix-blend-mode: luminosity;
@@ -388,7 +388,7 @@ background-clip: text;
 `
 
 export const Image3 = styled.div`
-width: 356px;
+width: 335px;
 height: 274.141px;
 background: url("/Image3.svg"), lightgray 50% / cover no-repeat;
 mix-blend-mode: luminosity;
@@ -419,7 +419,7 @@ background-clip: text;
 `
 
 export const Image4 = styled.div`
-width: 356px;
+width: 335px;
 height: 300.059px;
 flex-shrink: 0;
 background: url("/Image4.svg"), lightgray 50% / cover no-repeat;
@@ -471,7 +471,7 @@ margin-top:40px;
 
 export const See_Text = styled.div`
 position:relative;
-right:9.1%;
+right:3.5%;
 font-family: Inter;
 font-size: 31px;
 font-style: normal;
@@ -482,7 +482,7 @@ background: linear-gradient(91deg, #FFF 0%, rgba(255, 255, 255, 0.70) 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-margin-top:20px;
+margin-top:10px;
 `
 
 export const OnRec = styled.div`
