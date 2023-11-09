@@ -6,7 +6,7 @@ export const PageContainer=styled('div')({
     flexDirection:"column",
     alignItems:"center",
     justifyContent:"center",
-    width:"100%",
+    width:"450px",
     height:"100%",
     overflowY:"auto",
     overflowX:"hidden",
