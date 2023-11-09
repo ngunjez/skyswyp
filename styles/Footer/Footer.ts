@@ -13,11 +13,12 @@ padding: 33px 16px 32px 16px;
 `
 
 export const FooterWrapper = styled.div`
-width:95%;
+width:80%;
 height:auto;
 display:flex;
 flex-direction:column;
 gap:48px;
+
 `
 
 export const FirstContainer = styled.div`

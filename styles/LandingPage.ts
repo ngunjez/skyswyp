@@ -27,7 +27,7 @@ export const LandingPageContainer = styled('div')({
 
 export const Providing = styled("div")({
   display:"flex",
-width:"80%",
+width:"70%",
 marginTop:"150px",
 background:" linear-gradient(272deg, #B4BBFF 0%, #6AEFFF 25%, #B5FFF2 50%, #6AEFFF 75%, #B4BBFF 100%)",
 backgroundClip:" text",
@@ -287,7 +287,7 @@ white-space:nowrap;
 
 export const SectionRec = styled.div`
 display: flex;
-width: 95%;
+width: 70%;
 height: auto;
 // padding: 0px 16px;
 flex-direction: column;
@@ -326,7 +326,7 @@ background-clip: text;
 `
 
 export const Image1 = styled.div`
-width: 335px;
+width: 315px;
 height: 274.141px;
 background: url("/Rs1.png"), lightgray 50% / cover no-repeat;
 mix-blend-mode: luminosity;
@@ -357,7 +357,7 @@ background-clip: text;
 `
 
 export const Image2 = styled.div`
-width: 335px;
+width: 315px;
 height: 297.069px;
 background: url("/Image2.svg"), lightgray 50% / cover no-repeat;
 mix-blend-mode: luminosity;
@@ -388,7 +388,7 @@ background-clip: text;
 `
 
 export const Image3 = styled.div`
-width: 335px;
+width: 315px;
 height: 274.141px;
 background: url("/Image3.svg"), lightgray 50% / cover no-repeat;
 mix-blend-mode: luminosity;
@@ -419,7 +419,7 @@ background-clip: text;
 `
 
 export const Image4 = styled.div`
-width: 335px;
+width: 315px;
 height: 300.059px;
 flex-shrink: 0;
 background: url("/Image4.svg"), lightgray 50% / cover no-repeat;
@@ -465,7 +465,7 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 align-items: flex-start;
 display:flex;
-right:25%;
+right:20%;
 margin-top:40px;
 `
 
